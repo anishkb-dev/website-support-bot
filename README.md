@@ -14,7 +14,7 @@ The demo store, **Northwind Coffee Co.**, is fictional. Its help content is in `
 ## Run it
 
 ```bash
-uv venv --python 3.12 .venv && source .venv/bin/activate   # chromadb wants Python <= 3.12/3.13
+uv venv --python 3.12 .venv && source .venv/bin/activate   # tested on 3.12 (chromadb)
 uv pip install -r requirements.txt
 cp .env.example .env               # pick your LLM provider
 set -a; source .env; set +a
